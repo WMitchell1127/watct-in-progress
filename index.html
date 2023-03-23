@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/clock.css">
+
+</head>
+<body>
+    <div class="clock">
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+        <div class="number number0-1 second-mark">|</div>
+        <div class="number number0-2 second-mark">|</div>
+        <div class="number number0-3 second-mark">|</div>
+        <div class="number number0-4 second-mark">|</div>
+        <div class="number number1">1</div>
+        <div class="number number1-1 second-mark">|</div>
+        <div class="number number1-2 second-mark">|</div>
+        <div class="number number1-3 second-mark">|</div>
+        <div class="number number1-4 second-mark">|</div>
+        <div class="number number2">2</div>
+        <div class="number number2-1 second-mark">|</div>
+        <div class="number number2-2 second-mark">|</div>
+        <div class="number number2-3 second-mark">|</div>
+        <div class="number number2-4 second-mark">|</div>
+        <div class="number number3">3</div>
+        <div class="number number3-1 second-mark">|</div>
+        <div class="number number3-2 second-mark">|</div>
+        <div class="number number3-3 second-mark">|</div>
+        <div class="number number3-4 second-mark">|</div>
+        <div class="number number4">4</div>
+        <div class="number number4-1 second-mark">|</div>
+        <div class="number number4-2 second-mark">|</div>
+        <div class="number number4-3 second-mark">|</div>
+        <div class="number number4-4 second-mark">|</div>
+        <div class="number number5">5</div>
+        <div class="number number5-1 second-mark">|</div>
+        <div class="number number5-2 second-mark">|</div>
+        <div class="number number5-3 second-mark">|</div>
+        <div class="number number5-4 second-mark">|</div>
+        <div class="number number6">6</div>
+        <div class="number number6-1 second-mark">|</div>
+        <div class="number number6-2 second-mark">|</div>
+        <div class="number number6-3 second-mark">|</div>
+        <div class="number number6-4 second-mark">|</div>
+        <div class="number number7">7</div>
+        <div class="number number7-1 second-mark">|</div>
+        <div class="number number7-2 second-mark">|</div>
+        <div class="number number7-3 second-mark">|</div>
+        <div class="number number7-4 second-mark">|</div>
+        <div class="number number8">8</div>
+        <div class="number number8-1 second-mark">|</div>
+        <div class="number number8-2 second-mark">|</div>
+        <div class="number number8-3 second-mark">|</div>
+        <div class="number number8-4 second-mark">|</div>
+        <div class="number number9">9</div>
+        <div class="number number9-1 second-mark">|</div>
+        <div class="number number9-2 second-mark">|</div>
+        <div class="number number9-3 second-mark">|</div>
+        <div class="number number9-4 second-mark">|</div>
+        <div class="number number10">10</div>
+        <div class="number number10-1 second-mark">|</div>
+        <div class="number number10-2 second-mark">|</div>
+        <div class="number number10-3 second-mark">|</div>
+        <div class="number number10-4 second-mark">|</div>
+        <div class="number number11">11</div>
+        <div class="number number11-1 second-mark">|</div>
+        <div class="number number11-2 second-mark">|</div>
+        <div class="number number11-3 second-mark">|</div>
+        <div class="number number11-4 second-mark">|</div>
+        <div class="number number12">12</div>
+        <div class="number number12-1 second-mark">|</div>
+        <div class="number number12-2 second-mark">|</div>
+        <div class="number number12-3 second-mark">|</div>
+        <div class="number number12-4 second-mark">|</div>
+   
+        <div class="mitchell">Mitchell</div>
+        <div class="quartz">Quartz</div>
+        <div class="water-proof">Water Proof 30 Meters</div>
+        <div class="month-title">Month</div>
+        <div class="date-title">Day</div>
+        <div class="date" id="date"></div>
+        <div class="month-name" id="monthName"></div>
+        <div class="day-name" id="dayName"></div>
+
+        <div class="dial">
+            <div class="spline"> </div>
+            <div class="spline"> </div>
+            <div class="spline"> </div>
+            <div class="spline"> </div>
+            <div class="spline"> </div>
+            <div class="spline"> </div>
+            <div class="dial-nob"></div>
+        </div>
+
+        <div class="watch-band-top">
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-1"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-2"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-3"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-4"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-5"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-6"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-7"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-top-8"></div>
+        </div>
+
+        <div class="watch-band-bottom">
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-bottom-1"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-bottom-2"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-bottom-3"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-bottom-4"></div>
+            <div class="watch-band-line"> </div>
+            <div class="band-shading-bottom-5"></div>
+            <div class="watch-band-line"> <div class="hole2"></div></div>
+            <div class="band-shading-bottom-6"></div>
+            <div class="watch-band-line"> <div class="hole"></div></div>
+            <div class="band-shading-bottom-7"></div>
+            <div class="watch-band-line watch-band-bottom-link"> <div class="hole1"></div></div>
+            <div class="band-shading-bottom-8"></div>
+        </div>
+
+        <div class="buckle"><div class="buckle-line"></div></div>
+        <div class="band-holder-top"></div>
+        <div class="band-holder-bottom"></div>
+        <div class="watch-band-back-top"></div>
+        <div class="watch-band-back-bottom"></div>
+        <div class="tr-date-title">TR Date</div>
+        <div class="tr-date" id="trDate">
+            <div class="days" id="days"></div>
+        </div>
+        <div class="peterson">Made in USA</div>
+
+    </div>
+
+
+    <script src="./clock.js"></script>
+    <script src="./countDown.js"></script>
+
+</body>
+</html>
