@@ -13,7 +13,7 @@ body {
     /* linear-gradient(45deg, black, transparent 45%),
     linear-gradient(to top, white, transparent 35%),
     linear-gradient(45deg, black, white 45%); */
-  
+    
 }
 
 
@@ -28,7 +28,7 @@ body {
         linear-gradient(to top,green, transparent 30%),
         linear-gradient(to top right,blue 10%, orange 90%);
     animation: cool 10s ease infinite;
-    box-shadow: blue 5px -5px 80px;
+    
 } 
 
 @keyframes cool {
@@ -203,7 +203,7 @@ body {
     right: 60px;
     bottom: 47%;
     font-size: 1rem;
-    background-color: rgb(40, 235, 18);
+    background-color: white;
     border: 1px solid black;
     border-radius: 3px;
 }
@@ -219,7 +219,7 @@ body {
     position: absolute;
     bottom: 47%;
     left: 80px;
-    background-color: rgb(40, 235, 18);
+    background-color: white;
     border: 1px solid black;
     border-radius: 3px;
 }
@@ -228,7 +228,7 @@ body {
     position: absolute;
     left: 50px;
     bottom: 47%;
-    background-color: rgb(40, 235, 18);
+    background-color: white;
     border: 1px solid black;
     border-radius: 3px;
 }
@@ -265,7 +265,7 @@ body {
     top: 60px;
     width: 100%;
     text-align: center;
-    text-shadow: 2px 2px 2px rgb(114, 246, 14);
+    text-shadow: 2px 2px 2px white;
 }
 
 .watch-band-top {
@@ -418,7 +418,7 @@ body {
     position: absolute;
     right: 125px;
     bottom: 60px;
-    background-color: rgb(40, 235, 18);
+    background-color: white;
     border: 1px solid black;
     border-radius: 5px;
 }
