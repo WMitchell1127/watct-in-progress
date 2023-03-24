@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;        
-    background:rgba(1, 20, 21, 0.685);
+    background:rgba(21, 15, 1, 0.685);
     background-image: url(/Monument-Valley-3.jpg);   
     background-blend-mode:overlay;
     /* linear-gradient(45deg, black, transparent 85%), 
@@ -26,7 +26,9 @@ body {
 
 
 .clock {
-    background-image: url(/Rez-MV.jpg);
+    background-image: url(/resized-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
     width: 300px;
     height: 300px;
@@ -41,6 +43,10 @@ body {
     /* animation: cool 10s ease infinite; */
     
 } 
+.number{
+    color: rgb(5, 137, 209);
+    
+}
 
 @keyframes cool {
     from {
@@ -65,7 +71,7 @@ body {
 
 .second-mark{
     font-size: .5rem !important;
-    color: rgb(0, 0, 0)
+    color: black
 }
 
 .clock .number0-1 { --rotation: 6deg; }
@@ -152,6 +158,13 @@ body {
     transform-origin: bottom;
     z-index: 10;
     transform: translate(-50%) rotate(var(--rotation));
+}
+
+.watch-band-rock{
+    width: 30px;
+    height: 20px;
+    color: rgb(229, 16, 16);
+    
 }
 
 .clock::after {
@@ -253,6 +266,7 @@ body {
     bottom: 45%;
 }
 
+
 .dial-nob {
     position: absolute;
     background: black;
@@ -311,7 +325,39 @@ body {
 
 .hole {
     position: absolute;
-    background-color: grey;
+    background-color: rgb(6, 6, 6);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 35px;
+    top: 159px;
+    z-index: 11;
+}
+/* Left off here positioning of the turq rocks */
+.rock{
+    position: absolute;
+    background-color: rgb(21, 143, 177);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 35px;
+    top: 9px;
+    z-index: 11;
+}
+
+.hole1{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 35px;
+    top: 110px;
+    z-index: 11;
+}
+.rock1{
+    position: absolute;
+    background-color: rgb(9, 9, 9);
     height: 10px;
     width: 10px;
     border-radius: 50%;
@@ -320,24 +366,33 @@ body {
     z-index: 11;
 }
 
-.hole1{
-    position: absolute;
-    background-color: grey;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    left: 35px;
-    top: 110px;
-    z-index: 11;
-}
-
 .hole2{
     position: absolute;
-    background-color: grey;
+    background-color: rgb(5, 213, 224);
+    height: 10px;
+    width: 30px;
+    border-radius: 50%;
+    left: 25px;
+    top: 134px;
+    z-index: 11;
+}
+.rock2{
+    position: absolute;
+    background-color: rgb(6, 6, 6);
     height: 10px;
     width: 10px;
     border-radius: 50%;
     left: 35px;
+    top: 159px;
+    z-index: 11;
+}
+.hole3{
+    position: absolute;
+    background-color: rgb(5, 213, 224);
+    height: 10px;
+    width: 30px;
+    border-radius: 50%;
+    left:25px;
     top: 134px;
     z-index: 11;
 }
