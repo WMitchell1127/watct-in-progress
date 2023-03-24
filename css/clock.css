@@ -7,26 +7,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    overflow: hidden;
-    background:rgb(13, 14, 14);
-    /* linear-gradient(45deg, black, transparent 45%),
-    linear-gradient(to top, white, transparent 35%),
-    linear-gradient(45deg, black, white 45%); */
-    
+    min-height: 100vh;        
+    /* overflow: hidden; */
+    /* background:rgb(13, 14, 14); */
+    background-image: url(pexels-pixabay-2150.jpg); 
+    /* linear-gradient(45deg, black, transparent 85%), 
+    linear-gradient(to top, rgb(216, 21, 21), transparent 35%),
+    linear-gradient(45deg, black, rgb(217, 14, 14) 85%);    */
+
+}
+.myVideo{
+    position: fixed;    
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;  
 }
 
 
 .clock {
+    z-index: 1;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 10px solid black;
     position: relative;
     background: 
-        linear-gradient(140deg, red, transparent 45%),
-        linear-gradient(to top,green, transparent 30%),
-        linear-gradient(to top right,blue 10%, orange 90%);
+        linear-gradient(140deg, rgb(245, 244, 243), transparent 45%),
+        linear-gradient(to top,rgb(34, 44, 34), transparent 30%),
+        linear-gradient(to top right,rgb(8, 5, 208) 10%, rgb(7, 6, 6) 90%);
     animation: cool 10s ease infinite;
     
 } 
@@ -423,7 +432,7 @@ body {
     border-radius: 5px;
 }
 
-.peterson {
+.mitchell {
     position: absolute;
     width: 100%;
     text-align: center;
