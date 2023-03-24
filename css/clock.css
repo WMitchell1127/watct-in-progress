@@ -8,9 +8,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;        
-    /* overflow: hidden; */
-    /* background:rgb(13, 14, 14); */
-    background-image: url(pexels-pixabay-2150.jpg); 
+    background:rgba(1, 20, 21, 0.685);
+    background-image: url(/Monument-Valley-3.jpg);   
+    background-blend-mode:overlay;
     /* linear-gradient(45deg, black, transparent 85%), 
     linear-gradient(to top, rgb(216, 21, 21), transparent 35%),
     linear-gradient(45deg, black, rgb(217, 14, 14) 85%);    */
@@ -26,17 +26,19 @@ body {
 
 
 .clock {
+    background-image: url(/Rez-MV.jpg);
     z-index: 1;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 10px solid black;
     position: relative;
-    background: 
-        linear-gradient(140deg, rgb(245, 244, 243), transparent 45%),
-        linear-gradient(to top,rgb(34, 44, 34), transparent 30%),
-        linear-gradient(to top right,rgb(8, 5, 208) 10%, rgb(7, 6, 6) 90%);
-    animation: cool 10s ease infinite;
+    /* background:  */
+        /* linear-gradient(140deg, yellow, transparent 25%), */
+        /* linear-gradient(to top,rgb(15, 15, 15), transparent ), */
+        /* linear-gradient(to top,white, transparent 33%), */
+        /* linear-gradient(to top right,rgb(208, 5, 5) 10%, rgb(15, 14, 14) 33%); */
+    /* animation: cool 10s ease infinite; */
     
 } 
 
@@ -63,7 +65,7 @@ body {
 
 .second-mark{
     font-size: .5rem !important;
-    color: black
+    color: rgb(0, 0, 0)
 }
 
 .clock .number0-1 { --rotation: 6deg; }
