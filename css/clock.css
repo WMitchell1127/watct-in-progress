@@ -26,7 +26,7 @@ body {
 
 
 .clock {
-    background-image: url(/You&Me.jpg);
+    background-image: url(/You&Me2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -44,7 +44,7 @@ body {
     
 } 
 .number{
-    color: rgb(5, 137, 209);
+    color: rgb(141, 70, 4);
     
 }
 
